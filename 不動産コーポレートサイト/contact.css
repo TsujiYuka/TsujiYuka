@@ -1,0 +1,110 @@
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+}
+header .l-header {
+  margin: 13px 0 13px 92px;
+}
+header ul {
+  width: 612px;
+  height: 29px;
+  display: flex;
+  float: right;
+  margin-left: 385px;
+}
+header ul li {
+  list-style: none;
+  font-size: 20px;
+  color: #EF9926;
+  padding: 20px 0 20px 68px;
+}
+header a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(255, 164, 42, 0.8509803922);
+  height: 142px;
+}
+footer a {
+  text-decoration: none;
+}
+footer p, footer small {
+  color: #fff;
+}
+
+.contact-title {
+  text-align: center;
+}
+.contact-title h2 {
+  background-color: rgba(187, 227, 245, 0.1019607843);
+  border: 5px solid #AEDBEF;
+  border-left: none;
+  border-right: none;
+  opacity: 1;
+  font: normal 35px/51px Source Han Code JP;
+  color: #EF9926;
+  padding: 50px 0 50px 0;
+}
+.contact-title p {
+  padding: 49px 0 59px 0;
+}
+
+form {
+  padding-bottom: 114px;
+}
+form table {
+  width: 100%;
+}
+form table .contact-item,
+form table .contact-body {
+  padding: 0;
+}
+form table .contact-item {
+  width: 150px;
+  text-align: left;
+  color: #EF9926;
+  font-size: 18px;
+  padding-left: 277px;
+}
+form table .contact-item .span {
+  width: 30px;
+}
+form table .contact-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 31px;
+  height: 16px;
+  font: normal 10px/14px Source Han Code JP;
+  background-color: #7DC4E4;
+  border: 1px solid #AEDBEF;
+  border-radius: 4px;
+  color: #fff;
+}
+form table .contact-body {
+  width: 40%;
+  background-color: #fff;
+  padding-right: 364px;
+}
+form table .contact-body input, form table .contact-body textarea {
+  border: 2px solid #EF9926;
+  width: 517px;
+}
+form table .contact-body input {
+  height: 50px;
+}
+form table .contact-body textarea {
+  height: 166px;
+  margin-top: -28px;
+}
+form table .contact-body:not(tr:last-child td) {
+  padding-bottom: 20px;
+}
+form table .submit {
+  padding: 59px 0 59px 0;
+}/*# sourceMappingURL=contact.css.map */

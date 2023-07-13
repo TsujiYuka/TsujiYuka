@@ -1,0 +1,74 @@
+@use '../不動産コーポレートサイト/-module/header';
+@use '../不動産コーポレートサイト/-module/footer';
+.contact-title {
+    text-align: center;
+    h2 {
+        background-color: #BBE3F51A;
+        border: 5px solid #AEDBEF;
+        border-left: none;
+        border-right: none;
+        opacity: 1;
+        font: normal 35px/51px Source Han Code JP;
+        color: #EF9926;
+        padding: 50px 0 50px 0;
+    }
+    p {
+        padding: 49px 0 59px 0;
+    }
+}
+form {
+    // margin: 0 25%;
+    padding-bottom: 114px;
+    table {
+        width: 100%;
+        .contact-item,
+        .contact-body {
+            padding: 0;
+        }
+        .contact-item {
+            width: 150px;
+            text-align: left;
+            color: #EF9926;
+            font-size: 18px;
+            padding-left: 277px;
+            .span {
+                width: 30px;
+            }
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                float: right;
+                width: 31px;
+                height: 16px;
+                font: normal 10px/14px Source Han Code JP;
+                background-color: #7DC4E4;
+                border: 1px solid #AEDBEF;
+                border-radius: 4px;
+                color: #fff;
+            }
+        }
+        .contact-body {
+            width: 40%;
+            background-color: #fff;
+            padding-right: 364px;
+            input, textarea {
+                border: 2px solid #EF9926;
+                width: 517px;
+            }
+            input {
+                height: 50px;
+            }
+            textarea {
+                height: 166px;
+                margin-top: -28px;
+            }
+        }
+        .contact-body:not(tr:last-child td) {
+            padding-bottom: 20px;
+        }
+        .submit {
+            padding: 59px 0 59px 0;
+        }
+    }
+}
